@@ -1,0 +1,36 @@
+.delete-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+
+    font-size: 2rem;
+    font-weight: 700;
+
+    border: 1px solid brown;
+    padding: 1rem;
+
+    &__number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 2rem;
+    }
+
+    &__name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 18rem;
+    }
+
+    &__price {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 5rem;
+    }
+}

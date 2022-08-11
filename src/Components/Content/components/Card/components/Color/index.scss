@@ -1,0 +1,36 @@
+.color {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+  
+    &__wrapper {
+      width: 100%;
+      display: flex;
+    }
+  
+    &__input {
+        display: none;
+    }
+  
+    &__decorator {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      width: 100%;
+      max-width: 3.2rem;
+      height: 3.2rem;
+  
+      border: 1px solid brown;
+      border-radius: 50%;
+      
+    }
+  
+    &__input:checked + &__decorator {
+      transform: scale(1.2);
+      border: 3px solid rgb(150, 150, 150);
+      outline: 2px solid brown;
+    }
+  }
+  

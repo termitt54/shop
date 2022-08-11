@@ -1,0 +1,32 @@
+.memory {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+
+  &__wrapper {
+    width: 100%;
+    display: flex;
+  }
+
+  &__input {
+    display: none;
+  }
+
+  &__decorator {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 5rem;
+
+    border: 1px solid brown;
+    padding: 0.5rem 0;
+  }
+
+  &__input:checked + &__decorator {
+    background-color: brown;
+    color: white;
+  }
+}

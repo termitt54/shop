@@ -1,0 +1,23 @@
+.cart-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 15rem;
+  height: 24rem;
+
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: brown;
+
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  &__icon {
+    width: 100%;
+    max-width: 8rem;
+    height: 12rem;
+  }
+}

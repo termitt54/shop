@@ -1,0 +1,17 @@
+.guarantee {
+    width: 100%;
+    max-width: 10rem;
+    height: 3rem;
+
+    font-family: 'Pobeda', sans-serif;
+    color: brown;
+    font-size: 1.6rem;
+    font-weight: 700;
+
+    margin-left: 1rem;
+    border: 2px solid brown;
+    
+    &:focus {
+        outline: 1px solid brown;
+    }
+}

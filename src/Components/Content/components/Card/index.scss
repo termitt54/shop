@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 5rem;
+
+  width: 100%;
+  max-width: 40rem;
+
+  padding: 2rem;
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 0 0 15px brown;
+
+  &__picture {
+    width: 100%;
+    max-width: 14rem;
+  }
+
+  &__img {
+    width: 100%;
+    max-width: 14rem;
+    height: 20rem;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 20rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: brown;
+  }
+
+  &__price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 14rem;
+    height: 5rem;
+
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: brown;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    width: 100%;
+    max-width: 20rem;
+    height: 5rem;
+  }
+
+  &__guarantee {
+    display: flex;
+    align-items: center;
+  }
+}

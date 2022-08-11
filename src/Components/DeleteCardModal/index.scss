@@ -1,0 +1,31 @@
+.remove-card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+
+  &_active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    max-width: 60rem;
+    max-height: 60rem;
+
+    padding: 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    overflow: auto;
+  }
+}
